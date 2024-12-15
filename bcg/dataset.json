@@ -1,0 +1,517 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/bcg_out/meta.tsv",
+      "md5": "7c8ac6243e",
+      "size": 279984,
+      "mtime": "2024-12-15 07:06:36"
+    },
+    "outMeta": {
+      "fname": "/Users/francescafoglino/public_html/cells/bcg/meta.tsv",
+      "md5": "817facff8f",
+      "size": 271949,
+      "mtime": "2024-12-15 10:10:04"
+    },
+    "inMatrix": {
+      "fname": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/bcg_out/exprMatrix.tsv.gz",
+      "md5": "970f43e256",
+      "size": 8493043,
+      "mtime": "2024-12-15 07:06:36"
+    },
+    "outMatrix": {
+      "fname": "/Users/francescafoglino/public_html/cells/bcg/exprMatrix.tsv.gz",
+      "md5": "970f43e256",
+      "size": 8493043,
+      "mtime": "2024-12-15 10:10:04"
+    },
+    "conf": {
+      "fname": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/bcg_out/cellbrowser.conf",
+      "md5": "d5509adf36",
+      "size": 926,
+      "mtime": "2024-12-15 07:06:36"
+    }
+  },
+  "sampleCount": 1000,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "cellId",
+      "label": "cellId",
+      "type": "uniqueString",
+      "maxSize": 38,
+      "diffValCount": 1000,
+      "md5": "650736285c"
+    },
+    {
+      "name": "orig_barcode",
+      "label": "orig_barcode",
+      "type": "uniqueString",
+      "maxSize": 18,
+      "diffValCount": 1000,
+      "md5": "9fc09f9bf7"
+    },
+    {
+      "name": "sample",
+      "label": "sample",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Sample_BCG_h4",
+          289
+        ],
+        [
+          "Sample_BCG_h2",
+          197
+        ],
+        [
+          "BCG_PBMC_PIE_Post_1",
+          171
+        ],
+        [
+          "BCG_PBMC_PIE_Pre",
+          128
+        ],
+        [
+          "BCG_PBMC_PIE_Post_2",
+          110
+        ],
+        [
+          "Sample_BCG_h1",
+          56
+        ],
+        [
+          "Sample_BCG_h3",
+          39
+        ],
+        [
+          "BCG_post_PBMC",
+          8
+        ],
+        [
+          "BCG_pre_PBMC",
+          2
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 9,
+      "md5": "02cb2f3b04"
+    },
+    {
+      "name": "status",
+      "label": "status",
+      "type": "enum",
+      "valCounts": [
+        [
+          "Post",
+          775
+        ],
+        [
+          "Pre",
+          225
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "9dff07d54a"
+    },
+    {
+      "name": "experiment",
+      "label": "experiment",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 2,
+      "md5": "b583177770"
+    },
+    {
+      "name": "doublet",
+      "label": "doublet",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 2,
+      "md5": "574e269c85"
+    },
+    {
+      "name": "doublet_score",
+      "label": "doublet_score",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 95,
+      "md5": "79859b99de"
+    },
+    {
+      "name": "mito_frac",
+      "label": "mito_frac",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 999,
+      "md5": "6a32544bf8"
+    },
+    {
+      "name": "ribo_frac",
+      "label": "ribo_frac",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 1000,
+      "md5": "5de9f7abe1"
+    },
+    {
+      "name": "n_genes_by_counts",
+      "label": "n_genes_by_counts",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 822,
+      "md5": "0ffc4ed9f3"
+    },
+    {
+      "name": "log1p_n_genes_by_counts",
+      "label": "log1p_n_genes_by_counts",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 822,
+      "md5": "d1067f97dc"
+    },
+    {
+      "name": "total_counts",
+      "label": "total_counts",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 937,
+      "md5": "012d934f1c"
+    },
+    {
+      "name": "log1p_total_counts",
+      "label": "log1p_total_counts",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 937,
+      "md5": "51a7d21a49"
+    },
+    {
+      "name": "pct_counts_in_top_50_genes",
+      "label": "pct_counts_in_top_50_genes",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 999,
+      "md5": "a1ce9e1b81"
+    },
+    {
+      "name": "pct_counts_in_top_100_genes",
+      "label": "pct_counts_in_top_100_genes",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 999,
+      "md5": "e83644f17c"
+    },
+    {
+      "name": "pct_counts_in_top_200_genes",
+      "label": "pct_counts_in_top_200_genes",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 999,
+      "md5": "b8a288d29e"
+    },
+    {
+      "name": "pct_counts_in_top_500_genes",
+      "label": "pct_counts_in_top_500_genes",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 995,
+      "md5": "25f592c0df"
+    },
+    {
+      "name": "ATAC_Phenograph_Clusters",
+      "label": "ATAC_Phenograph_Clusters",
+      "type": "enum",
+      "valCounts": [
+        [
+          "15",
+          947
+        ],
+        [
+          "1",
+          10
+        ],
+        [
+          "0",
+          8
+        ],
+        [
+          "3",
+          6
+        ],
+        [
+          "9",
+          5
+        ],
+        [
+          "10",
+          4
+        ],
+        [
+          "4",
+          4
+        ],
+        [
+          "18",
+          4
+        ],
+        [
+          "6",
+          3
+        ],
+        [
+          "5",
+          3
+        ],
+        [
+          "8",
+          2
+        ],
+        [
+          "2",
+          2
+        ],
+        [
+          "11",
+          1
+        ],
+        [
+          "7",
+          1
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 14,
+      "md5": "399f306714"
+    },
+    {
+      "name": "ExpressedGenes",
+      "label": "Expressed Genes",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 826,
+      "md5": "f7384072d6"
+    },
+    {
+      "name": "LouvainCluster",
+      "label": "Louvain Cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          233
+        ],
+        [
+          "1",
+          209
+        ],
+        [
+          "2",
+          184
+        ],
+        [
+          "3",
+          146
+        ],
+        [
+          "4",
+          123
+        ],
+        [
+          "5",
+          42
+        ],
+        [
+          "6",
+          34
+        ],
+        [
+          "7",
+          29
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 8,
+      "md5": "4801828819"
+    },
+    {
+      "name": "cell_type",
+      "label": "cell_type",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 8,
+      "md5": "68e88c2fd1"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "Louvain Cluster",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "UMAP",
+      "md5": "71aa77e3ef",
+      "minX": -6.906054,
+      "maxX": 6.933185,
+      "minY": -0.89468396,
+      "maxY": 7.7751513,
+      "type": "Float32",
+      "textFname": "UMAP.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "pca_max",
+      "md5": "0a5ac24b13",
+      "minX": -1.98739,
+      "maxX": 3.607812,
+      "minY": -1.9161706,
+      "maxY": 2.755538,
+      "type": "Float32",
+      "textFname": "pca_max.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_2",
+      "shortLabel": "pca",
+      "md5": "4f43d8fe51",
+      "minX": -7.559566,
+      "maxX": 10.946974,
+      "minY": -7.103981,
+      "maxY": 7.824343,
+      "type": "Float32",
+      "textFname": "pca.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "0": [
+      "AL589693.1",
+      "IGHM",
+      "FAM30A",
+      "AFF3",
+      "CLNK"
+    ],
+    "1": [
+      "ELMO1",
+      "ZNF385D",
+      "MED12L",
+      "PLXDC2",
+      "INPP4B"
+    ],
+    "2": [
+      "SSBP2",
+      "PLCB1",
+      "ATP8B4",
+      "MSRB3",
+      "WDR49"
+    ],
+    "3": [
+      "XACT",
+      "ZNF385D",
+      "KIAA1211",
+      "SLC40A1",
+      "RYR3"
+    ],
+    "4": [
+      "ZNF385D",
+      "MED12L",
+      "SERPINB1",
+      "XACT",
+      "MIR181A1HG"
+    ],
+    "5": [
+      "DPYD",
+      "NAMPT",
+      "VCAN",
+      "SLCO3A1",
+      "ARHGAP26"
+    ],
+    "6": [
+      "HDC",
+      "SLC24A3",
+      "LMO4",
+      "IKZF2",
+      "RYR3"
+    ],
+    "7": [
+      "ATM",
+      "SKAP1",
+      "PIP4K2A",
+      "PLCL2",
+      "PTPRC"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Cluster Markers"
+    }
+  ],
+  "quickGenes": [
+    [
+      "AL589693.1",
+      "0"
+    ],
+    [
+      "IGHM",
+      "0"
+    ],
+    [
+      "ELMO1",
+      "1"
+    ],
+    [
+      "ZNF385D",
+      "1, 3, 4"
+    ],
+    [
+      "SSBP2",
+      "2"
+    ],
+    [
+      "PLCB1",
+      "2"
+    ],
+    [
+      "XACT",
+      "3"
+    ],
+    [
+      "MED12L",
+      "4"
+    ],
+    [
+      "DPYD",
+      "5"
+    ],
+    [
+      "NAMPT",
+      "5"
+    ],
+    [
+      "HDC",
+      "6"
+    ],
+    [
+      "SLC24A3",
+      "6"
+    ],
+    [
+      "ATM",
+      "7"
+    ],
+    [
+      "SKAP1",
+      "7"
+    ]
+  ],
+  "shortLabel": "bcg",
+  "defColorField": "Louvain Cluster",
+  "name": "bcg",
+  "firstBuildTime": "2024-12-15T05:10:06.004306",
+  "lastBuildTime": "2024-12-15T05:10:06.004336",
+  "md5": "2e44eb8b55"
+}

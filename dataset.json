@@ -1,0 +1,34 @@
+{
+  "name": "",
+  "shortLabel": "All Datasets",
+  "abstract": "This is a local Cell Browser installation, without dataset hierarchies.\n        Please select a dataset from the list on the left.<p>\n        <p>\n        See the documentation on <a target=_blank href=\"https://cellbrowser.readthedocs.io/collections.html\">\n        dataset hierarchies</a>.\n\n    ",
+  "datasets": [
+    {
+      "shortLabel": "bcg",
+      "name": "bcg",
+      "md5": "2e44eb8b55",
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 1000
+    },
+    {
+      "shortLabel": "ibd",
+      "name": "ibd",
+      "md5": "096f9a8d42",
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 5000
+    },
+    {
+      "shortLabel": "covid",
+      "name": "covid",
+      "md5": "b6013d6309",
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 5000
+    }
+  ]
+}

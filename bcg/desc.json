@@ -1,0 +1,8 @@
+{
+  "coordFiles": [
+    "UMAP.coords.tsv.gz",
+    "pca_max.coords.tsv.gz",
+    "pca.coords.tsv.gz"
+  ],
+  "matrixFile": "/Users/francescafoglino/public_html/cells/bcg/exprMatrix.tsv.gz"
+}

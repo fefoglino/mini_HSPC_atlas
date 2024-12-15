@@ -1,0 +1,7 @@
+{
+  "coordFiles": [
+    "UMAP.coords.tsv.gz",
+    "pca.coords.tsv.gz"
+  ],
+  "matrixFile": "/Users/francescafoglino/public_html/cells/covid/exprMatrix.tsv.gz"
+}
