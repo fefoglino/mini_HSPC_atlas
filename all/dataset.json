@@ -1,0 +1,692 @@
+{
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/all_out/meta.tsv",
+      "md5": "03bc4d54d2",
+      "size": 582496,
+      "mtime": "2024-12-15 10:44:23"
+    },
+    "outMeta": {
+      "fname": "/Users/francescafoglino/public_html/cells/all/meta.tsv",
+      "md5": "e119d45f3c",
+      "size": 582194,
+      "mtime": "2024-12-15 10:45:06"
+    },
+    "inMatrix": {
+      "fname": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/all_out/exprMatrix.tsv.gz",
+      "md5": "6a08af23f6",
+      "size": 92108220,
+      "mtime": "2024-12-15 10:44:14"
+    },
+    "outMatrix": {
+      "fname": "/Users/francescafoglino/public_html/cells/all/exprMatrix.tsv.gz",
+      "md5": "6a08af23f6",
+      "size": 92108220,
+      "mtime": "2024-12-15 10:45:06"
+    },
+    "conf": {
+      "fname": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/all_out/cellbrowser.conf",
+      "md5": "ebed3870b2",
+      "size": 1211,
+      "mtime": "2024-12-15 10:44:23"
+    }
+  },
+  "sampleCount": 11000,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "cellId",
+      "label": "cellId",
+      "type": "uniqueString",
+      "maxSize": 39,
+      "diffValCount": 10849,
+      "md5": "18e0d39e71"
+    },
+    {
+      "name": "sample",
+      "label": "sample",
+      "type": "enum",
+      "valCounts": [
+        [
+          "lgtd17",
+          821
+        ],
+        [
+          "lgtd18",
+          693
+        ],
+        [
+          "jcov110",
+          593
+        ],
+        [
+          "jcov69_8",
+          473
+        ],
+        [
+          "TRFCD14",
+          365
+        ],
+        [
+          "jcov117",
+          357
+        ],
+        [
+          "jcov72_5",
+          353
+        ],
+        [
+          "jcov127",
+          330
+        ],
+        [
+          "lgtd8m",
+          323
+        ],
+        [
+          "jcov60_6",
+          302
+        ],
+        [
+          "TRFCD04",
+          299
+        ],
+        [
+          "Sample_BCG_h4",
+          289
+        ],
+        [
+          "TRFCD03",
+          287
+        ],
+        [
+          "HDa",
+          279
+        ],
+        [
+          "TRFCD02",
+          251
+        ],
+        [
+          "TRFCD13",
+          243
+        ],
+        [
+          "SMART461",
+          221
+        ],
+        [
+          "TRFCD10",
+          209
+        ],
+        [
+          "SMART544",
+          199
+        ],
+        [
+          "Sample_BCG_h2",
+          197
+        ],
+        [
+          "jcov42",
+          187
+        ],
+        [
+          "SMART298",
+          173
+        ],
+        [
+          "BCG_PBMC_PIE_Post_1",
+          171
+        ],
+        [
+          "TRFCD12",
+          168
+        ],
+        [
+          "unassigned",
+          165
+        ],
+        [
+          "jcov42_20",
+          155
+        ],
+        [
+          "jcov111",
+          148
+        ],
+        [
+          "jcov56_9",
+          145
+        ],
+        [
+          "jcov115",
+          139
+        ],
+        [
+          "SMART315",
+          132
+        ],
+        [
+          "BCG_PBMC_PIE_Pre",
+          128
+        ],
+        [
+          "SMART323",
+          127
+        ],
+        [
+          "jcov119",
+          120
+        ],
+        [
+          "jcov21",
+          118
+        ],
+        [
+          "SMART347",
+          116
+        ],
+        [
+          "SMART236",
+          114
+        ],
+        [
+          "BCG_PBMC_PIE_Post_2",
+          110
+        ],
+        [
+          "HDad",
+          109
+        ],
+        [
+          "jcov101",
+          103
+        ],
+        [
+          "TRFCD01",
+          90
+        ],
+        [
+          "HDv",
+          85
+        ],
+        [
+          "jcov101_2",
+          84
+        ],
+        [
+          "SMART250",
+          68
+        ],
+        [
+          "HD_AD",
+          67
+        ],
+        [
+          "jcov92",
+          61
+        ],
+        [
+          "SMART108",
+          60
+        ],
+        [
+          "SMART093",
+          57
+        ],
+        [
+          "Sample_BCG_h1",
+          56
+        ],
+        [
+          "SMART303",
+          55
+        ],
+        [
+          "SMART204",
+          51
+        ],
+        [
+          "jcov122",
+          48
+        ],
+        [
+          "jcov114",
+          47
+        ],
+        [
+          "SMART498",
+          45
+        ],
+        [
+          "HDj",
+          43
+        ],
+        [
+          "Sample_BCG_h3",
+          39
+        ],
+        [
+          "SMART088",
+          38
+        ],
+        [
+          "jcov49_2",
+          35
+        ],
+        [
+          "HDu",
+          34
+        ],
+        [
+          "SMART091",
+          34
+        ],
+        [
+          "SMART254",
+          33
+        ],
+        [
+          "jcov52",
+          31
+        ],
+        [
+          "jcov124",
+          31
+        ],
+        [
+          "SMART321",
+          22
+        ],
+        [
+          "SMART309",
+          21
+        ],
+        [
+          "jcov93",
+          18
+        ],
+        [
+          "SMART040",
+          9
+        ],
+        [
+          "BCG_post_PBMC",
+          8
+        ],
+        [
+          "SMART097",
+          8
+        ],
+        [
+          "SMART335",
+          6
+        ],
+        [
+          "BCG_pre_PBMC",
+          2
+        ],
+        [
+          "SMART030",
+          2
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 71,
+      "md5": "ef56102157"
+    },
+    {
+      "name": "ExpressedGenes",
+      "label": "Expressed Genes",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 3277,
+      "md5": "aa5b5bf76a"
+    },
+    {
+      "name": "LouvainCluster",
+      "label": "Louvain Cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          1702
+        ],
+        [
+          "1",
+          1684
+        ],
+        [
+          "2",
+          1308
+        ],
+        [
+          "3",
+          1194
+        ],
+        [
+          "4",
+          1165
+        ],
+        [
+          "5",
+          842
+        ],
+        [
+          "6",
+          647
+        ],
+        [
+          "7",
+          632
+        ],
+        [
+          "8",
+          565
+        ],
+        [
+          "9",
+          412
+        ],
+        [
+          "10",
+          239
+        ],
+        [
+          "11",
+          215
+        ],
+        [
+          "12",
+          212
+        ],
+        [
+          "13",
+          92
+        ],
+        [
+          "14",
+          91
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 15,
+      "md5": "ea45d32640"
+    },
+    {
+      "name": "cell_type",
+      "label": "cell_type",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 15,
+      "md5": "fa0e63b6b3"
+    },
+    {
+      "name": "origin",
+      "label": "origin",
+      "type": "enum",
+      "valCounts": [
+        [
+          "ibd",
+          5151
+        ],
+        [
+          "covid",
+          4849
+        ],
+        [
+          "bcg",
+          1000
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 3,
+      "md5": "f031042cd5"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "Louvain Cluster",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "umap_scanorama",
+      "md5": "bdf615c71c",
+      "minX": -4.1496835,
+      "maxX": 20.747276,
+      "minY": -5.201207,
+      "maxY": 15.055431,
+      "type": "Float32",
+      "textFname": "umap_scanorama.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_1",
+      "shortLabel": "umap_harmony",
+      "md5": "9ac3834f6b",
+      "minX": -3.0198834,
+      "maxX": 15.412314,
+      "minY": -2.03132,
+      "maxY": 12.241389,
+      "type": "Float32",
+      "textFname": "umap_harmony.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_2",
+      "shortLabel": "UMAP",
+      "md5": "8183a6b6f3",
+      "minX": -3.4094572,
+      "maxX": 16.186888,
+      "minY": -0.23385432,
+      "maxY": 12.755917,
+      "type": "Float32",
+      "textFname": "UMAP.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_3",
+      "shortLabel": "scanorama",
+      "md5": "ed1c483557",
+      "minX": -22.471174240112305,
+      "maxX": 29.572662353515625,
+      "minY": -12.379852279027304,
+      "maxY": 18.788196563720703,
+      "type": "Float32",
+      "textFname": "scanorama.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_4",
+      "shortLabel": "pca_harmony",
+      "md5": "cd8f6cd596",
+      "minX": -21.987494239377476,
+      "maxX": 29.2587009298001,
+      "minY": -14.247259333788511,
+      "maxY": 18.16573174047281,
+      "type": "Float32",
+      "textFname": "pca_harmony.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    },
+    {
+      "name": "coords_5",
+      "shortLabel": "pca",
+      "md5": "d44e4959b1",
+      "minX": -27.343193,
+      "maxX": 30.58906,
+      "minY": -16.071615,
+      "maxY": 18.788197,
+      "type": "Float32",
+      "textFname": "pca.coords.tsv.gz",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "hasFiles": [
+    "datasetDesc"
+  ],
+  "topMarkers": {
+    "0": [
+      "ATP8B4",
+      "VIM",
+      "GAPDH",
+      "EEF1G",
+      "ETV6"
+    ],
+    "1": [
+      "AL589693.1",
+      "AFF3",
+      "IGHM",
+      "RERE",
+      "MEF2C"
+    ],
+    "2": [
+      "SSBP2",
+      "LRBA",
+      "CHST11",
+      "ETV6",
+      "PLCB1"
+    ],
+    "3": [
+      "ZNF385D",
+      "STXBP5",
+      "XACT",
+      "SLC40A1",
+      "NLK"
+    ],
+    "4": [
+      "ATP8B4",
+      "RACK1",
+      "ELMO1",
+      "HINT1",
+      "SPINK2"
+    ],
+    "5": [
+      "MALAT1",
+      "ACTB",
+      "B2M",
+      "CD247",
+      "CHKB"
+    ],
+    "6": [
+      "H3F3B",
+      "PLCG2",
+      "JUN",
+      "H1FX",
+      "MALAT1"
+    ],
+    "7": [
+      "ZNF385D",
+      "MED12L",
+      "PLXDC2",
+      "ZBTB20",
+      "RNF130"
+    ],
+    "8": [
+      "SKAP1",
+      "CD247",
+      "SYNE2",
+      "PRKCH",
+      "LINC01619"
+    ],
+    "9": [
+      "XACT",
+      "RYR3",
+      "PDZD8",
+      "ZNF385D",
+      "SLC40A1"
+    ],
+    "10": [
+      "NEAT1",
+      "DPYD",
+      "ARHGAP26",
+      "PICALM",
+      "SLC8A1"
+    ],
+    "11": [
+      "AL589693.1",
+      "ANKRD44",
+      "DOCK10",
+      "SKAP1",
+      "MAML2"
+    ],
+    "12": [
+      "SLC24A3",
+      "HDC",
+      "LMO4",
+      "RYR3",
+      "RNF130"
+    ],
+    "13": [
+      "MALAT1",
+      "H3F3B",
+      "PLCG2",
+      "FOS",
+      "TRA2B"
+    ],
+    "14": [
+      "MEF2A",
+      "ATP10A",
+      "RUNX2",
+      "AFF3",
+      "HDAC9"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Cluster Markers"
+    }
+  ],
+  "quickGenes": [
+    [
+      "ATP8B4",
+      "0, 4"
+    ],
+    [
+      "AL589693.1",
+      "1, 11"
+    ],
+    [
+      "SSBP2",
+      "2"
+    ],
+    [
+      "ZNF385D",
+      "3, 7"
+    ],
+    [
+      "MALAT1",
+      "5, 13"
+    ],
+    [
+      "H3F3B",
+      "6"
+    ],
+    [
+      "SKAP1",
+      "8"
+    ],
+    [
+      "XACT",
+      "9"
+    ],
+    [
+      "NEAT1",
+      "10"
+    ],
+    [
+      "SLC24A3",
+      "12"
+    ],
+    [
+      "MEF2A",
+      "14"
+    ]
+  ],
+  "shortLabel": "all",
+  "defColorField": "Louvain Cluster",
+  "name": "all",
+  "firstBuildTime": "2024-12-15T05:45:19.255231",
+  "lastBuildTime": "2024-12-15T05:45:19.255242",
+  "md5": "bda3002a31"
+}
