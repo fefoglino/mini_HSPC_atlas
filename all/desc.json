@@ -1,0 +1,11 @@
+{
+  "coordFiles": [
+    "umap_scanorama.coords.tsv.gz",
+    "umap_harmony.coords.tsv.gz",
+    "UMAP.coords.tsv.gz",
+    "scanorama.coords.tsv.gz",
+    "pca_harmony.coords.tsv.gz",
+    "pca.coords.tsv.gz"
+  ],
+  "matrixFile": "/Users/francescafoglino/public_html/cells/all/exprMatrix.tsv.gz"
+}

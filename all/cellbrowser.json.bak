@@ -1,0 +1,46 @@
+{
+  "name": "all",
+  "shortLabel": "all",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "meta": "meta.tsv",
+  "geneIdType": "auto",
+  "defColorField": "Louvain Cluster",
+  "labelField": "Louvain Cluster",
+  "enumFields": [
+    "Louvain Cluster"
+  ],
+  "coords": [
+    {
+      "file": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/all_out/umap_scanorama_coords.tsv",
+      "shortLabel": "umap_scanorama"
+    },
+    {
+      "file": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/all_out/umap_harmony_coords.tsv",
+      "shortLabel": "umap_harmony"
+    },
+    {
+      "file": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/all_out/umap_coords.tsv",
+      "shortLabel": "UMAP"
+    },
+    {
+      "file": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/all_out/scanorama_coords.tsv",
+      "shortLabel": "scanorama"
+    },
+    {
+      "file": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/all_out/pca_harmony_coords.tsv",
+      "shortLabel": "pca_harmony"
+    },
+    {
+      "file": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/all_out/pca_coords.tsv",
+      "shortLabel": "pca"
+    }
+  ],
+  "markers": [
+    {
+      "file": "/Users/francescafoglino/Documents/josefowiczlab/hspc_atlas_prototype/mini_HSPC_github/all_out/markers.tsv",
+      "shortLabel": "Cluster Markers"
+    }
+  ],
+  "quickGenesFile": "quickGenes.tsv",
+  "inDir": "all_out"
+}
