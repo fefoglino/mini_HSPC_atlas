@@ -6,7 +6,7 @@ Three datasets have been incorporated so far, two of which are already published
 
 
 #### References
-Andrew W. Daman, Anthony Claude Antonelli, Gil Redelman-Sidi, Lucinda Paddock, Jin Gyu Cheong, Leonardo F. Jurado, Anna Benjamin, Song Jiang, Dughan Ahimovic, Shireen Khayat, Michael J. Bale, Oleg Loutochin, Victor A. McPherson, Dana Pe’er, Maziar Divangahi, Eugene Pietzak, Steven Z. Josefowicz, Michael S. Glickman
+* Andrew W. Daman, Anthony Claude Antonelli, Gil Redelman-Sidi, Lucinda Paddock, Jin Gyu Cheong, Leonardo F. Jurado, Anna Benjamin, Song Jiang, Dughan Ahimovic, Shireen Khayat, Michael J. Bale, Oleg Loutochin, Victor A. McPherson, Dana Pe’er, Maziar Divangahi, Eugene Pietzak, Steven Z. Josefowicz, Michael S. Glickman
 bioRxiv 2024.03.21.586166; doi: https://doi.org/10.1101/2024.03.21.586166
 
 Cheong JG, Ravishankar A, Sharma S, et al. Epigenetic memory of coronavirus infection in innate immune cells and their progenitors. Cell. 2023;186(18):3882-3902.e24. doi:10.1016/j.cell.2023.07.019
