@@ -1,17 +1,8 @@
 {
   "name": "",
   "shortLabel": "All Datasets",
-  "abstract": "This is a local Cell Browser installation, without dataset hierarchies.\n        Please select a dataset from the list on the left.<p>\n        <p>\n        See the documentation on <a target=_blank href=\"https://cellbrowser.readthedocs.io/collections.html\">\n        dataset hierarchies</a>.\n\n    ",
+  "abstract": "This is a lightweight implementation of UCSC's Cellbrowser framework to visualize three datasets, both separately and together.",
   "datasets": [
-    {
-      "shortLabel": "bcg",
-      "name": "bcg",
-      "md5": "2e44eb8b55",
-      "hasFiles": [
-        "datasetDesc"
-      ],
-      "sampleCount": 1000
-    },
     {
       "shortLabel": "all",
       "name": "all",
@@ -20,6 +11,15 @@
         "datasetDesc"
       ],
       "sampleCount": 11000
+    },
+    {
+      "shortLabel": "bcg",
+      "name": "bcg",
+      "md5": "2e44eb8b55",
+      "hasFiles": [
+        "datasetDesc"
+      ],
+      "sampleCount": 1000
     },
     {
       "shortLabel": "ibd",
