@@ -1,9 +1,8 @@
 # mini_HSPC_atlas
 
-A super light-weight implementation of the UCSC Cellbrowser framework to visualize small sub-samples of datasets from the labs of Dr. Steven Zvi Josefowicz (Weill Cornell Medicine) and Dr. Rachel Niec (MSKCC).
+A super light-weight implementation of the UCSC Cellbrowser framework to visualize small sub-samples of PBMC datasets from the labs of Dr. Steven Zvi Josefowicz (Weill Cornell Medicine) and Dr. Rachel Niec (MSKCC).
 
 Three datasets have been incorporated so far, two of which are already published.
-
 
 #### References
 * Andrew W. Daman, Anthony Claude Antonelli, Gil Redelman-Sidi, Lucinda Paddock, Jin Gyu Cheong, Leonardo F. Jurado, Anna Benjamin, Song Jiang, Dughan Ahimovic, Shireen Khayat, Michael J. Bale, Oleg Loutochin, Victor A. McPherson, Dana Pe’er, Maziar Divangahi, Eugene Pietzak, Steven Z. Josefowicz, Michael S. Glickman
